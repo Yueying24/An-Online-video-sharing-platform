@@ -1,0 +1,1 @@
+<h1 style="text-align:center; margin: 0 auto;">Your password has been updated! You may login from <a href='<?php echo base_url('Login') ?>'>here</a></h1>

@@ -1,0 +1,198 @@
+
+body {
+    position: relative;
+}
+
+.type{
+    font-size: 2em;
+}
+
+.title{
+    padding: 20px;
+    margin:10px;
+    font-size: 4em;
+}
+
+div.col-sm-3 div {
+    font-size: 20px;
+}
+
+div.col-sm-9 div {
+    height: auto;
+    border: 2px;
+    border-radius: 10px;
+}
+
+#diets {
+    color: #fff;
+    background-color: black;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.items{
+    flex-direction: row;
+    flex-wrap: wrap;
+    float:left;
+    text-align: center;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section4, #section5  {
+        margin-left: 150px;
+    }
+}
+
+/* Manipulating diet images */
+.main
+{
+    position: relative;
+    top: 20px;
+    left: 3%;
+}
+
+#form_head
+{
+    text-align: center;
+    background-color:black;
+    height: 66px;
+    margin: 0 0 -29px 0;
+    padding-top: 35px;
+    border-radius: 8px 8px 0 0;
+    color: white;
+}
+
+.content {
+    left: 5%;
+    position: absolute;
+    width: 220px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+#content_result{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 110px;
+}
+
+#crop_result{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 110px;
+}
+#water_result{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 110px;
+}
+#rotate_result{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 110px;
+}
+#form_input
+{
+    margin-top: 15px;
+    margin-left:10px;
+    font-size: 7px;
+    border:none;
+}
+label
+{
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.submit{
+    position: relative;
+    font-size: 15px;
+    background: linear-gradient(#ffbc00 5%, black 100%);
+    border: 1px solid #e5a900;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline: none;
+    margin: 10px 0;
+    margin-left: 27%;
+}
+.submit:hover{
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+.label_output
+{
+    color:#4A85AB;
+    font-size: 10px;
+    margin-left: 10px;
+}
+#result_id
+{
+    margin-top: 0;
+    text-align: center;
+    background-color: black;
+    border-radius: 4px 4px 0 0;
+    color: white;
+}
+#result_show
+{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 10px;
+}
+.input_box{
+    height:15px;
+    width:100px;
+    padding:10px;
+    border-radius:3px;
+    background-color:#FEFFED;
+    margin: 5px 20px;
+}
+img {
+    margin: 20px;
+    max-height:200px;
+    max-width:200px;
+}
+
+#water_mark {
+    position: absolute;
+}
+#rotate {
+    position: absolute;
+}
+#height_cor{
+    margin-left: -2px;
+}
+#width_cor {
+    margin-left: 20px;
+}
+p {
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.default_form{
+    margin:0 auto;
+    font-size: 15px;
+}
+
+input[type=file]{
+    width: 50%;
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#get_info, #get_upload, #get_playlist, #get_comments{
+    cursor: pointer;
+}
+
+.bg{
+    background-image: url("../images/marble.jpg");
+    max-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.error{
+    color:red;
+    font-size: 12px;
+}
+
+.form {
+    position: absolute;
+    right: 250px;
+    margin: 20px 110px;
+    max-width: 600px;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 5px 15px 10px 15px;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.submit {
+    background-color: #000000;
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+#videos,#playlist,#comments{
+    border:none;
+    margin: 0 auto;
+}
+
+h3{
+    float:left;
+}
+
+.caption h6, .caption h6:hover{
+    text-decoration: none;
+    
+}

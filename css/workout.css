@@ -1,0 +1,72 @@
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body{
+    height: 100%;
+    font-family: Arial;
+    transition:background-color .5s;
+}
+
+/* Style tab links */
+.tab {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tab:hover, .tab:active {
+    background-color: #777;
+    color:white;
+    text-decoration: none;
+}
+
+/* Style the content (and add height:100% for full page) */
+
+#Male, #Female{
+    color: black;
+    padding: 10px 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.file{
+    width: 80%;
+    padding: 15px;
+    margin: 20px auto;
+    border: none;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+a {
+    display: table;
+}
+
+.main{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+a h4, a h4:hover{
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav_bar{
+    margin: -10px 0;
+}
+
+
+
+
+
